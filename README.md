@@ -5,7 +5,7 @@ A polished Next.js workspace that turns a project brief into a collaborative Bus
 ## Run locally
 
 1. Install Node.js 20+.
-2. Copy `.env.example` to `.env.local` and set `OPENAI_API_KEY` for live AI generations.
+2. Copy `.env.example` to `.env.local` and set your `ANTHROPIC_API_KEY` for live AI generations.
 3. Run:
 
 ```bash
@@ -19,7 +19,7 @@ Open `http://localhost:3000`.
 
 1. Push this folder to a new GitHub repository.
 2. In [Vercel](https://vercel.com/new), import the repository.
-3. Add `OPENAI_API_KEY` (and optionally `OPENAI_MODEL`) under **Environment Variables**.
+3. Add `ANTHROPIC_API_KEY` (and optionally `ANTHROPIC_MODEL`) under **Environment Variables**.
 4. Click **Deploy**. Vercel detects Next.js automatically.
 
 ## GitHub
